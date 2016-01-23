@@ -4,8 +4,9 @@ RSpec.describe CategoriesController, type: :controller do
 
   describe "GET #show" do
     it "returns http success" do
-      get :show
-      expect(response).to have_http_status(:success)
+      @category = Category.create(name: "Car")
+      visit category_path(@category)
+      expect(page.status_code).to eq(200)
     end
   end
 
