@@ -28,18 +28,12 @@ describe 'form' do
 
     visit edit_post_path(@post)
 
-    fill_in 'post[title]', with: "My edit"
+    fill_in 'post[title]', with: "My Edit"
     fill_in 'post[description]', with: "My post description"
 
     click_on "Update Post"
 
-    expect(page).to have_content("My edit")
+    expect(page).to have_content("My Edit")
   end
 end
 
-describe "post" do
-  it "has a post_status field" do
-    @post = Post.create(title: "My Post", description: "My post desc", post_status: true)
-    expect(@post.post_status).to eq(true)
-  end
-end
