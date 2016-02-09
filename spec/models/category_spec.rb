@@ -1,5 +1,13 @@
 require 'rails_helper'
 
-RSpec.describe Category, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+describe Category do
+	before(:each) do
+		@category = Category.create!(name: "Category")
+	end
+  it 'creates a category' do
+  
+  	expect(@category).to be_valid
+	end
+
+
 end
