@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   resources :accounts
-  resources :accounts
+  
   get 'accounts/new'
 
   get 'accounts/create'
