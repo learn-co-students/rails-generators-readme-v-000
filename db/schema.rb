@@ -33,7 +33,7 @@ ActiveRecord::Schema.define(version: 20160424230928) do
     t.text     "description"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
-    t.string   "post_status"
+    t.boolean  "post_status"
   end
 
 end

@@ -1,5 +1,8 @@
 require 'rails_helper'
 
 RSpec.describe Account, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+  it "can be instantiated" do
+    a = Account.new
+    expect(a.class).to eq(Account)
+  end
 end
