@@ -1,5 +1,9 @@
 require 'rails_helper'
 
 # RSpec.describe Account, type: :model do
-#   pending "add some examples to (or delete) #{__FILE__}"
+#   it "has a name" do
+#     @account = Account.new
+#     @account.name = "Honey Boo Boo"
+#     expect(@account.name).to eq("Honey Boo Boo")
+#   end
 # end
