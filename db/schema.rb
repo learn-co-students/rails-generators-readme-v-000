@@ -40,7 +40,7 @@ ActiveRecord::Schema.define(version: 20160729150349) do
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
     t.integer  "category_id"
-    t.string   "post_status"
+    t.boolean  "post_status"
   end
 
 end
