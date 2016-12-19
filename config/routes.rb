@@ -4,7 +4,7 @@ Rails.application.routes.draw do
 
   get 'admin/stats'
 
-  get 'admin/finacnials'
+  get 'admin/financials'
 
   get 'admin/settings'
 
