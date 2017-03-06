@@ -1,13 +1,6 @@
 Rails.application.routes.draw do
   resources :accounts
-  get 'admin/dashboard'
-
-  get 'admin/stats'
-
-  get 'admin/financials'
-
-  get 'admin/settings'
-
+  resources :admin, only: [:dashboard, :stats, :financials, :settings ]
   resources :posts, only: [:index, :show, :new, :create, :edit, :update]
   resources :categories
 end
