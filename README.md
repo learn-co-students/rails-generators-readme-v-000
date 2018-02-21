@@ -153,7 +153,6 @@ Author.create!(name: "Stephen King", genre: "Horror", bio: "Bio details go here"
 
 So it looks like our model has been created properly. As you can see, this particular generator created a few different pieces of functionality with a single command, and it did it with creating minimal code bloat.
 
-
 ## Controller Generators
 
 Controller generators are great if you are creating static views or non-CRUD related features (we'll walk through why this is the case shortly). Let's create an `admin` controller that will manage the data flow and view rendering for our admin dashboard pages:
