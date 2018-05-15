@@ -1,0 +1,2 @@
+class AccoutsController < ApplicationController
+end
