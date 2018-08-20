@@ -11,7 +11,7 @@ As nice as it is to use the generators to save time, they also provide some addi
 * They are setup to work the same way each time. This helps standardize your code and enables your development to be more efficient since you don't have to worry as much about bugs related to spelling, syntax errors, or anything else that can occur when writing code manually.
 
 * They follow Rails best practices, which includes utilizing RESTful naming patterns, removing duplicate code, using partials and a number of other best of breed design patterns (if you don't know what all of these are, don't worry, we will cover them shortly).
-
+.
 
 ## Abusing Generators
 
