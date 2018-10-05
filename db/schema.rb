@@ -11,11 +11,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20181005211047) do
+ActiveRecord::Schema.define(version: 20181005225656) do
 
   create_table "authors", force: :cascade do |t|
     t.string   "name"
     t.string   "genre"
+    t.text     "bio"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -32,6 +33,7 @@ ActiveRecord::Schema.define(version: 20181005211047) do
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
     t.integer  "category_id"
+    t.string   "post_status"
   end
 
 end
