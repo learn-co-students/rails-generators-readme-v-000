@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   resources :accounts
+  resources :accounts
   get 'admin/dashboard'
 
   get 'admin/stats'
