@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :accounts
+  
   get 'admin/dashboard'
 
   get 'admin/stats'
@@ -14,7 +16,7 @@ Rails.application.routes.draw do
   # In `rails routes`, the output of both is: `categories_show GET  /categories/show(.:format) categories#show`
   # However, the output of `resources :categories, only: :show` is different: `category GET  /categories/:id(.:format) categories#show`
   
-  # I think I really only need to use #get when I'm creating a non-CRUD route, a non-conventional route, or a differently-named route.
+  # I think I really only need to use #get when I'm creating a non-CRUD route, a static route, a non-conventional route, or a differently-named route.
   # A controller generator is helpful here ^^^.
 
   # get 'categories/show', to: 'categories#show'
