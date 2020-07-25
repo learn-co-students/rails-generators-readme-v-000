@@ -27,6 +27,7 @@ In the same manner as our chainsaw example, certain generators create quite a bi
 So when is the right time to use a generator? After we've gone over the actions of each of the generators, the answer to this query should become readily apparent. In addition, we'll walk through some case studies to help understand when each type of generator is beneficial.
 
 
+
 ## Rails Generate
 
 All of the Rails generators are entered as commands into the terminal and will follow this syntax:
